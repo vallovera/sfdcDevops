@@ -13,9 +13,9 @@ trigger:
   demands: ant
 
 variables:
-  sfdc.username: '$(sfdc-username-build)'
-  sfdc.password: '$(sfdc-password-build)'
-  sfdc.server_url: '$(sfdc-serverurl-build)'
+  sfdc.username: 'vallovera@cunning-bear-q80gid.com'
+  sfdc.password: 'Fv152642*'
+  sfdc.server_url: 'https://login.salesforce.com'
 
 steps:
 - task: petergroenewegen.PeterGroenewegen-Xpirit-Vsts-Build-InlinePowershell.Xpirit-Vsts-Build-InlinePowershell.InlinePowershell@1
